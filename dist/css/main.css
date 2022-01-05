@@ -224,7 +224,7 @@
 }
 
 .about .jobs {
-  width: 60vw;
+  width: 70vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
@@ -438,6 +438,9 @@
   .nav .menu-nav__link {
     font-size: 1.5rem;
   }
+  .about .jobs {
+    width: 80vw;
+  }
   .about__bio {
     font-size: 1.5rem;
   }
@@ -459,12 +462,15 @@
 
 @media screen and (min-width: 1024px) {
   .projects__items {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
   .contact__list {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .about .jobs {
+    width: 50vw;
   }
 }
 
